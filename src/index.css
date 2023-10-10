@@ -27,6 +27,14 @@ button.primary {
   background-color: var(--green);
   color: white;
 }
+button.delete {
+  padding: 0.25rem 1rem;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  color: white
+}
 
 .app {
   margin: 0 auto;
@@ -95,6 +103,16 @@ input {
 input:focus {
   outline: none;
   border-bottom: 2px solid var(--green);
+}
+
+input.price {
+  padding: 0.5rem;
+  border: none;
+  font-family: inherit;
+  font-size: .8em;
+  border-bottom: 2px solid gray;
+  transition: all 0.2s;
+  width: 75%;
 }
 
 .cards {
